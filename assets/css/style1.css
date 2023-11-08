@@ -47,7 +47,7 @@ p {
 }
 .logo {
   font-size: 29px;
-  color: white;
+  color: #d2d2d2;
   align-items: center;
   display: flex;
 }
@@ -75,7 +75,7 @@ p {
   color: #ffc000;
 }
 .customer-wri {
-  color: white;
+  color: #d2d2d2;
 }
 .customer span,
 .mail span {
@@ -85,10 +85,10 @@ p {
   color: #ffc000;
 }
 .mail_wri {
-  color: white;
+  color: #d2d2d2;
 }
 .social-login {
-  color: white;
+  color: #d2d2d2;
   /* cursor: pointer; */
   text-align: right;
 }
@@ -139,7 +139,7 @@ p {
   width: 210px;
   border-top-right-radius: 44px;
   border-bottom-right-radius: 44px;
-  color: white;
+  color: #d2d2d2;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -179,7 +179,7 @@ p {
 .inner_banner h1 {
   font-size: 63px;
   font-weight: 900;
-  color: white;
+  color: #d2d2d2;
   padding-bottom: 21px;
   letter-spacing: 3px;
   line-height: 71px;
@@ -237,7 +237,7 @@ p {
 }
 .booking_wrap {
   display: grid;
-  grid-template-columns: 25% 70%;
+  grid-template-columns: 30% 65%;
   grid-gap: 5%;
 }
 .grp {
@@ -247,7 +247,7 @@ p {
   margin-bottom: 20px;
 }
 .booking_box input {
-  background-color: #404040;
+  background-color: #242424;
 }
 .booking_box input,
 .booking_box button {
@@ -291,19 +291,21 @@ input::-webkit-calendar-picker-indicator {
   right: -20px;
 }
 .booking_text h2 {
-  color: white;
-  font-size: xx-large;
+  color: #d2d2d2;
+  font-size: 48px;
   padding-bottom: 25px;
 }
 .booking_text h5 {
   color: #acacac;
   padding-bottom: 15px;
   padding-top: 10px;
+  font-size: 14px;
 }
 .booking_text p {
-  font-size: 12px;
+  font-size: 14px;
   color: #acacac;
-  font-weight: 500;
+  font-weight: 600;
+  line-height: 30px;
 }
 .booking_text {
   display: flex;
@@ -385,8 +387,8 @@ input::-webkit-calendar-picker-indicator {
   height: 210px;
 }
 .section2 {
-  font-size: 16px;
-  line-height: 31px;
+  font-size: 14px;
+  line-height: 30px;
   font-weight: 500;
   color: #a8a8a8;
 }
@@ -403,13 +405,13 @@ input::-webkit-calendar-picker-indicator {
 .call_icon {
   display: flex;
   background: #ffc000;
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
   position: relative;
-  margin: 10px;
+  margin-right: 18px;
 }
 .sec_3 {
   display: flex;
@@ -417,14 +419,15 @@ input::-webkit-calendar-picker-indicator {
   justify-content: space-between;
 }
 .call_wri {
-  font-size: 16px;
+  font-size: 14px;
   color: #a8a8a8;
   font-weight: 500;
+  line-height: 24px;
 }
 .number {
   font-size: larger;
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: 800;
+  font-size: 25px;
 }
 
 /* <!-- number speak start */
@@ -479,14 +482,15 @@ input::-webkit-calendar-picker-indicator {
   color: #ffc000;
 }
 .square h2 {
-  padding-top: 10px;
+  padding-top: 13px;
   font-size: 48px;
   font-weight: 800;
 }
 .square p {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 600;
   color: #a8a8a8;
+  padding-top: 13px;
 }
 /* number speake end  */
 
@@ -505,18 +509,18 @@ input::-webkit-calendar-picker-indicator {
   font-weight: 800;
 }
 .book_taxi_text h2 {
-  font-size: 48px;
+  font-size: 46px;
   font-weight: 800;
+  font-weight: 700;
 }
 
 .book_taxi_button button {
-  color: white;
+  color: #d2d2d2;
   background-color: black;
-  height: 55px;
-  width: 183px;
-  border-radius: 29px;
-  font-size: 16px;
-  font-weight: 700;
+  padding: 23px 47px;
+  border-radius: 35px;
+  font-size: 15px;
+  font-weight: 600;
   border: 0;
   cursor: pointer;
 }
@@ -533,7 +537,7 @@ input::-webkit-calendar-picker-indicator {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 38px;
 }
 .chooose_taxi_heading p {
   font-size: medium;
@@ -546,7 +550,7 @@ input::-webkit-calendar-picker-indicator {
   font-weight: 800;
   letter-spacing: -2px;
   line-height: 51px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 .choose_taxi_buttons a {
   background-color: #f3f3f3;
@@ -572,7 +576,7 @@ input::-webkit-calendar-picker-indicator {
   padding-bottom: 0px;
 }
 .choose_taxi_buttons {
-  padding-bottom: 53px;
+  padding-bottom: 59px;
   text-align: center;
 }
 .car_logo {
@@ -589,7 +593,7 @@ input::-webkit-calendar-picker-indicator {
 }
 
 .car {
-  border: 3px #f3f3f3 solid;
+  border: 2px #f3f3f3 solid;
   border-radius: 11px;
   padding-bottom: 27px;
 }
@@ -606,7 +610,7 @@ input::-webkit-calendar-picker-indicator {
   padding-top: 23px;
 }
 .second_car {
-  border: 3px #ffc000 solid !important;
+  border: 2px #ffc000 solid !important;
 }
 .first_row,
 .second_row,
@@ -645,7 +649,7 @@ input::-webkit-calendar-picker-indicator {
   padding-bottom: 40px;
 }
 .why_choose_us_heading_text h2 {
-  color: white;
+  color: #d2d2d2;
 }
 
 .why_choose_us_2nd_part {
@@ -662,11 +666,14 @@ input::-webkit-calendar-picker-indicator {
 }
 .why h4,
 .why h5 {
-  color: white;
+  color: #d2d2d2;
 }
 .why p {
   color: #a8a8a8;
   padding-bottom: 27px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
 }
 .why h4 {
   font-size: 18px;
@@ -706,7 +713,7 @@ input::-webkit-calendar-picker-indicator {
 .car_logo_text {
   display: flex;
   justify-content: center;
-  border-bottom: 2px #deb087 solid;
+  border-bottom: .5px #f2b075 solid;
   padding-bottom: 35px;
   height: 74px;
 }
@@ -746,7 +753,7 @@ input::-webkit-calendar-picker-indicator {
 }
 .check_button button {
   background: #111111;
-  color: white;
+  color: #d2d2d2;
   padding: 14px 45px;
   border: 0;
   font-size: 14px;
@@ -756,9 +763,9 @@ input::-webkit-calendar-picker-indicator {
 
 .check_section3 {
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 31px;
-  font-weight: 500;
+  font-weight: 600;
   color: #a8a8a8;
   padding-top: 53px;
 }
@@ -770,7 +777,7 @@ input::-webkit-calendar-picker-indicator {
 }
 .what_they_say p,
 .what_they_say h2 {
-  color: white;
+  color: #d2d2d2;
 }
 .what_they_say_image,
 .what_they_say_text {
@@ -781,8 +788,8 @@ input::-webkit-calendar-picker-indicator {
   justify-content: center;
 }
 .what_they_say_image img {
-  width: 150px;
-  height: 150px;
+  width: 75px;
+  height: 75px;
   border-radius: 50%;
   margin: 10px;
 }
@@ -845,7 +852,7 @@ input::-webkit-calendar-picker-indicator {
   padding-bottom: 26px;
 }
 .new_updates_section3_text p {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 31px;
   font-weight: 500;
   color: #a8a8a8;
@@ -929,7 +936,7 @@ input::-webkit-calendar-picker-indicator {
 
   background: black;
 
-  color: white;
+  color: #d2d2d2;
 
   padding: 18px 42px;
 
@@ -957,7 +964,7 @@ input::-webkit-calendar-picker-indicator {
 .last_coloum2 h6,
 .last_coloum3 h6,
 .last_coloum4 h6 {
-  color: white;
+  color: #d2d2d2;
   padding-bottom: 31px;
   font-size: 16px;
   font-weight: 700;
@@ -973,11 +980,11 @@ input::-webkit-calendar-picker-indicator {
 }
 
 .call_icon_wri_last {
-  color: white;
+  color: #d2d2d2;
 }
 
 .social_login_last {
-  color: white;
+  color: #d2d2d2;
   font-size: 15px;
   /* padding-right: 1px; */
 }
@@ -1012,7 +1019,7 @@ input::-webkit-calendar-picker-indicator {
   padding-right: 30px;
   font-size: 15px;
   font-weight: 800;
-  color: white;
+  color: #d2d2d2;
 }
 .last_coloum4 input,
 .last_coloum4 button {
@@ -1026,7 +1033,7 @@ input::-webkit-calendar-picker-indicator {
 }
 
 .social_login_last span {
-  padding-right: 20px;
+  padding-right: 27px;
 }
 .logo_terms_policy p,
 .terms p {
