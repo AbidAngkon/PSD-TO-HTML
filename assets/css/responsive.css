@@ -1,0 +1,92 @@
+/*  Tablet PC: 992px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .container {
+        max-width: 930px;
+    }
+    .header2nd .yellow_part ul {
+        padding-left: 22px;
+    }
+    .header2nd .yellow_part ul li {
+        padding: 15px;
+    }
+    .left_arrow {
+        left: 45px;
+    }
+    .right_arrow {
+        right: 45px;
+    }
+    .inner_banner h1 {
+        font-size: 55px;
+    }
+    .left_arrow, .right_arrow {
+        font-size: 45px;
+    }
+    .book_taxi_wrap .car_image img{
+        width: 100%;
+    }
+    .what_they_say_text p {
+        font-size: 23px;
+        padding: 12px 0px;
+        max-width: 770px;
+        margin: auto;
+    }
+    .new_updates_right_section1_left {
+        padding: 20px;
+    }
+    .new_updates_right_section1_left h3 {
+        padding-top: 20px;
+    }
+    
+}
+
+/*  Tablet Mobile: 768px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*  Mobile : 576px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  
+}
+
+
+/*  Mobile Small Device: 450px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 450px) and (max-width: 575.98px) {
+  
+}
+/*  Mobile Small Device: 320px.
+    Gutters: 24px.
+    Outer margins: 28px.
+    Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 320px) and (max-width: 449.98px) {
+  
+}
+
+
