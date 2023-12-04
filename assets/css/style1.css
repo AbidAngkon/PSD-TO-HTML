@@ -24,6 +24,9 @@ p {
   padding-bottom: 75px !important;
 }
 /* basic css */
+.mobile_header{
+  display: none;
+}
 #banner {
   background-image: url("../image//baikang-yuan-6JgpJTUJphI-unsplash.jpg");
   background-size: cover;
@@ -1137,5 +1140,7 @@ input::-webkit-calendar-picker-indicator {
 .newsletter_form{
   position: relative;
 }
+
+
 
 /* <!-- 1st page last section end  --> */

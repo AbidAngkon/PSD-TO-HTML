@@ -55,13 +55,95 @@ cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
     .container {
-        max-width: 647px;
+        max-width: 690px;
     }
     .customer span, .mail span {
-        font-size: 9px;
+        font-size: 12px;
+    }
+    .header1st {
+        grid-template-columns: 46% 21% 33%;
     }
     .social-login span i {
-        font-size: 9px;
+        padding-left: 12px;
+        font-size: 12px;
+    }
+    input::-webkit-calendar-picker-indicator {
+        height: 15px;
+        width: 15px;
+    }
+    .heading_text h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .last_coloum_wrap {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-gap: 10%;
+    }
+
+    .check_car_text h5 {
+        font-size: 18px;
+    }
+    .new_updates_wrap {
+        grid-template-columns: 100%;
+        grid-gap: 0%;
+    }
+    .call_now_wrap h2 {
+        font-size: 35px;
+    }
+    .new_updates_right_section1_left {
+        padding: 20px;
+    }
+    .choose_taxi_buttons a {
+        margin-right: 10px;
+    }
+    .header2nd .yellow_part ul li {
+        padding: 14px;  
+    }
+    .chooose_taxi_heading h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .chooose_taxi_heading {
+        padding-bottom: 20px;
+    }
+    .book_taxi_wrap_button button {
+        padding: 12px 40px;
+        font-size: 12px;
+    }
+    .choose_taxi_buttons {
+        padding-bottom: 35px;
+    }
+    .anywheer_info {
+        grid-template-columns: 46% 50%;
+        grid-gap: 4%;
+    }
+    .Section1 {
+        padding-bottom: 15px;
+    }
+    .section2 {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .sec1_text {
+        height: 175px;
+    }
+    .sec1_vdo {
+        height: 176px;
+    }
+    .call_wri {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .call_icon {
+        height: 40px;
+        width: 40px;
+    }
+    .number2 {
+        font-size: 12px;
+    }
+    .number_speak_heading h2 {
+        font-size: 35px;
     }
     .header2nd {
         height: 57px;
@@ -72,8 +154,14 @@ px      68    160    252    344    436    528    620    712    */
     .header2nd .yellow_part ul {
         padding-left: 40px;
     }
+    .number {
+        font-size: 14px;
+    }
+    .mobile .phone {
+        font-size: 10px;
+    }
     .header2nd .yellow_part ul li a {
-        font-size: 7px;
+        font-size: 11px;
         font-weight: 700;
         letter-spacing: 0px;
     }
@@ -81,8 +169,8 @@ px      68    160    252    344    436    528    620    712    */
         padding-right: 16px;
     }
     .inner_banner h1 {
-        font-size: 45px;
-        line-height: 54px;
+        font-size: 35px;
+        line-height: 45px;
     }
     .inner_banner p {
         line-height: 29px;
@@ -91,153 +179,156 @@ px      68    160    252    344    436    528    620    712    */
     .inner_banner a {
         padding: 11px 27px;
         font-weight: 700;
-        font-size: 10px;
+        font-size: 12px;
     }
     .left_arrow, .right_arrow {
-    font-size: 35px;
-}
-.call-icon i {
-    width: 40px;
-    height: 40px;
-    right: 127px;
-    top: 9px;
-}
-.left_arrow {
-    left: 26px;
-}
-.right_arrow {
-    right: 26px;
-}
-.left_arrow, .right_arrow {
-    font-size: 29px;
-}
-.social-login span {
-    padding: 0px 4px;
-}
-.booking_text h5 {
-    font-size: 11px;
-}
-.booking_text h2 {
-    font-size: 32px;
-}.booking_text p {
-    font-size: 11px;
-}
-.booking_box input, .booking_box button {
-    height: 45px;
-}
-.booking_box button {
-    font-size: 14px;
-}
-.book_taxi_text h2 {
-    font-size: 27px;
-}
-.book_taxi_text p {
-    font-size: 12px; 
-}
-.book_taxi_text p{
-    padding-bottom: 2px;
-}
-.square h2 {
-    font-size: 40px;
-}
-.square {
-    padding: 14px 0px;
-}
-.square i {
-    font-size: 36px;
-}
-.square p {
-    font-size: 11px;
-}
-.choose_taxi_buttons a {
-    font-size: 7px;
-    font-weight: 800;
-}
-.book_taxi_wrap {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 48% 48%;
-    grid-gap: 4%;
-    padding-bottom: 0px;
-}
-.c_taxi_f_left, .c_taxi_f_right {
-    padding: 45px 50px;
-}
-.check_car_logo {
-    font-size: 41px;
-    padding-right: 34px;
-}
-.check_car_text p {
-    font-size: 10px;
-}
-.p_h_text p {
-    font-size: 10px;
-}
-.p_h_text h6 {
-    font-size: 11px;
-}
-.check_button button {
-    padding: 13px 37px;
-    font-size: 10px;
-}
-.car_logo_text {
-    padding-bottom: 12px;
-}
-.check_section3 {
-    font-size: 11px;
-    line-height: 23px;
+        font-size: 35px;
+    }
+    .common_section_padding {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+    .call-icon i {
+        width: 40px;
+        height: 40px;
+        right: 127px;
+        top: 9px;
+    }
+    .left_arrow {
+        left: 26px;
+    }
+    .right_arrow {
+        right: 26px;
+    }
+    .left_arrow, .right_arrow {
+        font-size: 29px;
+    }
+    .social-login span {
+        padding: 0px 4px;
+    }
+    .booking_text h5 {
+        font-size: 11px;
+    }
+    .booking_text h2 {
+        font-size: 32px;
+    }.booking_text p {
+        font-size: 11px;
+    }
+    .booking_box input, .booking_box button {
+        height: 45px;
+    }
+    .booking_box button {
+        font-size: 12px;
+    }
+    .book_taxi_text h2 {
+        font-size: 27px;
+    }
+    .book_taxi_text p {
+        font-size: 12px; 
+    }
+    .book_taxi_text p{
+        padding-bottom: 2px;
+    }
+    .square h2 {
+        font-size: 25px;
+    }
+    .square {
+        padding: 14px 0px;
+    }
+    .square i {
+        font-size: 25px;
+    }
+    .square p {
+        font-size: 11px;
+    }
+    .choose_taxi_buttons a {
+        font-size: 10px;
+        font-weight: 800;
+    }
+    .book_taxi_wrap {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-gap: 4%;
+        padding-bottom: 0px;
+    }
+    .c_taxi_f_left, .c_taxi_f_right {
+        padding: 45px 50px;
+    }
+    .check_car_logo {
+        font-size: 41px;
+        padding-right: 34px;
+    }
+    .check_car_text p {
+        font-size: 12px;
+    }
+    .p_h_text p {
+        font-size: 11px;
+    }
+    .p_h_text h6 {
+        font-size: 11px;
+    }
+    .check_button button {
+        padding: 13px 37px;
+        font-size: 12px;
+    }
+    .car_logo_text {
+        padding-bottom: 12px;
+    }
+    .check_section3 {
+        font-size: 11px;
+        line-height: 23px;
 
-}
-.what_they_say_text p {
-    font-size: 17px;
-    line-height: 29px;
-}
-.book_taxi_button button {
-    padding: 12px 15px;
-    font-size: 13px;
-}
-.call_now_wrap button {
-    padding: 17px 31px;
-    font-size: 13px;
-}
-.last_coloum4 input {
-    height: 50px;
-    width: 196px;
-}
-.mail_last_section {
-    font-size: 10px;
-}
-.call_icon_wri_last {
-    font-size: 13px;
-}
-.last_coloum1 p, .last_coloum2 li, .last_coloum3 p, .last_coloum4 p {
-    font-size: 9px;
-    line-height: 16px;
- }
- .mail_last_section {
-    padding-top: 14px;
-    padding-bottom: 7px;
-    font-size: 10px;
-}
-.last_coloum4 input {
-    height: 44px;
-    width: 155px;
-}
-.last_coloum4 input {
-    font-size: 11px;
-}
-.social_login_last span {
-    padding-right: 18px;
-}
-.got_btn {
-    right: 37px;
-    top: 16%;
-    width: 30px;
-    height: 30px;
-}
-.last_coloum_wrap {
-    padding-bottom: 51px;
-}
+    }
+    .what_they_say_text p {
+        font-size: 17px;
+        line-height: 29px;
+    }
+    .book_taxi_button button {
+        padding: 12px 15px;
+        font-size: 13px;
+    }
+    .call_now_wrap button {
+        padding: 17px 31px;
+        font-size: 13px;
+    }
+    .last_coloum4 input {
+        height: 50px;
+        width: 196px;
+    }
+    .mail_last_section {
+        font-size: 10px;
+    }
+    .call_icon_wri_last {
+        font-size: 13px;
+    }
+    .last_coloum1 p, .last_coloum2 li, .last_coloum3 p, .last_coloum4 p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .mail_last_section {
+        padding-top: 14px;
+        padding-bottom: 7px;
+        font-size: 10px;
+    }
+    .last_coloum4 input {
+        width: 72%;
+    }
+    .last_coloum4 input {
+        font-size: 11px;
+    }
+    .social_login_last span {
+        padding-right: 18px;
+    }
+    .got_btn {
+        right: 37px;
+        top: 15%;
+        width: 35px;
+        height: 35px;
+    }
+    .last_coloum_wrap {
+        padding-bottom: 51px;
+    }
 
 
 
@@ -251,6 +342,39 @@ px      68    160    252    344    436    528    620    712    */
 cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+        max-width: 550px;
+    }
+    .social_login_mobile{
+        display: none;
+    }
+    .header1st {
+        grid-template-columns: 100%;
+    }
+    .conact_mail {
+        justify-content: space-between;
+    }
+    .logo{
+        display: none;
+    }
+    .header2nd{
+        display: none;
+    }
+    .conact_mail {
+        padding-right: 0px;
+    }
+    .mobile_header {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        font-size: 25px;
+        background: #ffc000;
+        padding: 10px;
+        border-radius: 25px;
+        padding: 10px 25px;
+        align-items: center;
+    }
+    
   
 }
 
