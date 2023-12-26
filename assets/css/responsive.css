@@ -342,411 +342,411 @@ px      68    160    252    344    436    528    620    712    */
 cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
-            .container {
-                max-width: 550px;
-            }
-            .social_login_mobile{
-                display: none;
-            }
-            .header1st {
-                grid-template-columns: 100%;
-            }
-            .conact_mail {
-                justify-content: space-between;
-            }
-            .logo{
-                display: none;
-            }
-            .header2nd{
-                display: none;
-            }
-            .conact_mail {
-                padding-right: 0px;
-            }
-            .mobile_header {
-                color: white;
-                display: flex;
-                justify-content: space-between;
-                font-size: 25px;
-                background: #ffc000;
-                padding: 10px;
-                border-radius: 25px;
-                padding: 10px 25px;
-                align-items: center;
-            }
-            .inner_banner h1 {
-                font-size: 38px;
-                line-height: 43px;
-            }
-            .inner_banner p {
-                line-height: 22px;
-                font-size: 15px;
-            }
-            .left_arrow {
-                top: 47%;
-                left: 17px;
-            }
-            .right_arrow {
-                top: 47%;
-                right: 17px;
-            }
-            .left_arrow, .right_arrow {
-                font-size: 30px;
-            }
-            .inner_banner a {
-                font-size: 12px;
-                padding: 8px 19px;
-            }
-            .booking_text h5 {
-                font-size: 11px;
-                padding-bottom: 1px;
-                padding-top: 6px;
-            }
-            .booking_text h2 {
-                font-size: 30px;
-                padding-bottom: 9px;
-            }
-            .booking_text p {
-                font-size: 11px;
-                line-height: 16px;
-            }
-            .grp {
-                grid-template-columns: 50% 50%;
-                grid-gap: 8px;
-                margin-bottom: 7px;
-            }
-            .booking_box input, .booking_box button {
-                height: 28px;
-            }
-            .booking_wrap {
-                grid-template-columns: 32% 54%;
-                grid-gap: 12%;
-            }
-            .booking_box input {
-                font-size: 9px;
-            }
-            input::-webkit-calendar-picker-indicator {
-                background-color: #ffc000;
-                height: 10px;
-                width: 10px;
-                padding: 7%;
-                border-radius: 50%;
-                position: relative;
-                right: -25px;
+    .container {
+        max-width: 550px;
+    }
+    .social_login_mobile{
+        display: none;
+    }
+    .header1st {
+        grid-template-columns: 100%;
+    }
+    .conact_mail {
+        justify-content: space-between;
+    }
+    .logo{
+        display: none;
+    }
+    .header2nd{
+        display: none;
+    }
+    .conact_mail {
+        padding-right: 0px;
+    }
+    .mobile_header {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        font-size: 25px;
+        background: #ffc000;
+        padding: 10px;
+        border-radius: 25px;
+        padding: 10px 25px;
+        align-items: center;
+    }
+    .inner_banner h1 {
+        font-size: 38px;
+        line-height: 43px;
+    }
+    .inner_banner p {
+        line-height: 22px;
+        font-size: 15px;
+    }
+    .left_arrow {
+        top: 47%;
+        left: 17px;
+    }
+    .right_arrow {
+        top: 47%;
+        right: 17px;
+    }
+    .left_arrow, .right_arrow {
+        font-size: 30px;
+    }
+    .inner_banner a {
+        font-size: 12px;
+        padding: 8px 19px;
+    }
+    .booking_text h5 {
+        font-size: 11px;
+        padding-bottom: 1px;
+        padding-top: 6px;
+    }
+    .booking_text h2 {
+        font-size: 30px;
+        padding-bottom: 9px;
+    }
+    .booking_text p {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .grp {
+        grid-template-columns: 50% 50%;
+        grid-gap: 8px;
+        margin-bottom: 7px;
+    }
+    .booking_box input, .booking_box button {
+        height: 28px;
+    }
+    .booking_wrap {
+        grid-template-columns: 32% 54%;
+        grid-gap: 12%;
+    }
+    .booking_box input {
+        font-size: 9px;
+    }
+    input::-webkit-calendar-picker-indicator {
+        background-color: #ffc000;
+        height: 10px;
+        width: 10px;
+        padding: 7%;
+        border-radius: 50%;
+        position: relative;
+        right: -25px;
 
-            }
+    }
 
-            .booking_text p {
-                font-size: 11px;
-                line-height: 15px;
-            }
-            .booking_box button {
-                font-size: 12px;
-            }
-            .booking_box input {
-                padding-left: 16px;  
-            }
-            .heading_text p { /* 2nd heading */
-                font-size: 13px;
-                padding-top: 9px;
-                padding-bottom: 4px;
-            }
-            .heading_text h2 {  /* 3nd heading */
-                font-size: 38px;
-                font-weight: 800;
-                letter-spacing: -1px;
-                line-height: 39px;
-                padding-bottom: 34px;
-            }
-            .heading_text p {
-                font-size: 11px;
-                padding-top: 5px;
-                padding-bottom: 5px;
-            }
-            .heading_text h2 {
-                font-size: 25px;
-                line-height: 30px;
-                padding-bottom: 22px;
-            }
-            .anywheer_info {
-                grid-template-columns: 48% 48%;
-                grid-gap: 4%;
-            }
-            .section2 {
-                font-size: 11px;
-                line-height: 18px;
-            }
-            .sec1_text {
-                height: 120px;
-            }
-            .sec1_vdo {
-                height: 120px;
-            }
-            .Section1 {
-                padding-bottom: 15px;
-            }
-            .sec1_text h4 {
-                font-size: 10px;
-                font-weight: 800;
-            }
-            .call_icon {
-                height: 28px;
-                width: 28px;
-                font-size: 15px;
-            }
-            .number2 {
-                font-size: 11px;
-            }
-            .call_wri {
-                font-size: 11px;
-                line-height: 19px;
-            }
-            .call_icon {
-                margin-right: 6px;
-            }
-            .call_wri {
-                font-size: 11px;
-                line-height: 18px;
-            }
-            .section3 {
-                bottom: -2px;
-            }
-            .number_speak_heading p {
-                padding-top: 5px;
-            }
-            .number_speak_heading h2 {
-                padding-top: 5px;
-            }
-            .number_speak_heading {
-                padding-bottom: 19px;
-            }
-            .number_speak_heading p {
-                padding-top: 5px;
-                font-size: 11px;
-            }
-            .number_speak_heading h2 {
-                padding-top: 2px;
-                font-size: 25px;
-                font-weight: 800;
-                letter-spacing: 0px;
-            }
-            .square i {
-                font-size: 27px;
-            }
-            .square h2 {
-                font-size: 25px;
-                padding-top: 2px;
-            }
-            .square p {
-                font-size: 11px;
-                padding-top: 2px;
-            }
-            .square {
-                padding: 29px 0px;
-            }
-            .book_taxi_text p {
-                font-size: 11px;
-            }
-            .book_taxi_text h2 {
-                font-size: 25px;
-            }
-            .book_taxi_button button {
-                padding: 9px 16px;
-                font-size: 12px;
-            }
-            .chooose_taxi_heading p {
-                font-size: 11px;
-                padding-top: 5px;
-            }
-            .chooose_taxi_heading h2 {
-                font-size: 25px;
-                padding-top: 15px;
-                line-height: 0px;
-            }
-            .choose_taxi_buttons a {
-                margin-right: 12px;
-                padding: 9px 11px;
-                font-size: 11px;
-            }
-            .car_image img{
-                width: 100%;
-            }
-            .book_taxi_wrap {
-                width: 100%;
-                grid-template-columns: 48% 48%;
-                grid-gap: 4%;
-            }
-            .car_logo img{
-                width: 28% ;
-            }
-            .model_name {
-                padding: 10px 0px;
-            }
-            .model_name h4 {
-                font-size: 20px;
-            }
-            .first_row, .second_row, .third_row {
-                display: grid;
-                grid-template-columns: 55% 40%;
-                grid-gap: 5%;
-                padding-left: 59px;
-                margin-bottom: 8px;
-            }
-            .book_taxi_wrap_button button {
-                padding: 10px 41px;
-                font-size: 13px;
-            }
-            .car {
-                padding-bottom: 22px;
-            }
-            .why img {
-                padding-bottom: 10px;
-                padding-bottom: 14px;
-                width: 35%;
-            }
-            .why h4 {
-                font-size: 14px;
-                padding-bottom: 10px;
-            }
-            .why p {
-                padding-bottom: 18px;
-                font-size: 11px;
-                line-height: 18px;
-            }
-            .why h4, .why h5 {
-                font-size: 12px;
-            }
-            .check_taxi_farse_section2 {
-                display: grid;
-                width: 100%;
-                grid-template-columns: 100%;
-                grid-gap: 2.5%;
-            }
-            .car_logo_text { 
-                padding-bottom: 22px;
-            }
-            .check_car_text p {
-                font-size: 15px;
-            }
-            .p_h_text p {
-                font-size: 13px;
-            }
-            .p_h6 {
-                padding-top: 20px;
-            }
-            .check_button button {
-                padding: 13px 36px;
-                font-size: 12px;
-            }
-            .check_section3 {
-                font-size: 11px;
-                line-height: 21px;
-                padding-top: 43px;
-            }
-            .what_they_say_image img {
-                width: 56px;
-                height: 56px;
-                margin: 6px;
-            }
-            .what_they_say_text p {
-                font-size: 12px;
-                line-height: 18px;
-                padding: 9px 0px;
-            }
-            .new_updates_wrap {
-                display: flex;
-                flex-direction: column;
-            }
-            .new_updates_left_section1 img {
-                padding-bottom: 11px;
-            }
-            .new_updates_section2_text small {
-                font-size: 11px;
-            }
-            .new_updates_section3_text h5 {
-                font-size: 25px;
-                font-weight: 800;
-                line-height: 33px;
-                padding-bottom: 3px
-            }
-            .new_updates_section3_text p {
-                font-size: 11px;
-                line-height: 14px;
-                padding-bottom: 28px;
-            }
-            .new_updates_right_section1_left button {
-                font-size: 10px;
-                padding: 9px 16px;
-            }
-            .new_updates_right_section1_left h3 {
-                padding-top: 16px;
-                line-height: 24px;
-                font-size: 15px;
-            }
-            .new_updates_right_section1_left p {
-                padding-top: 12px;
-                font-size: 11px;
-            }
-            .new_updates_right_section1_left {
-                padding: 67px;
-                border-top-left-radius: 8px;
-                border-bottom-left-radius: 8px;
-            }
-            .new_updates_right_section1_left p {
-                padding-top: 7px;
-                font-size: 11px;
-            }
-            .call_now_wrap p {
-                font-size: 11px;
-            }
-            .call_now_wrap h2 {
-                font-size: 25px;
-                line-height: 29px;
-                padding-top: 7px;
-                padding-bottom: 25px;
-            }
-            .call_now_wrap button {
-                padding: 14px 28px;
-                font-size: 12px;
-            }
-            .last_coloum1 p, .last_coloum2 li, .last_coloum3 p, .last_coloum4 p {
-                font-size: 11px;
-                line-height: 18px;
-            }
-            .last_coloum_wrap{
-                display: grid;
-                grid-template-columns: 48% 45%;
-                grid-gap: 10%;
-            }
-            .last_coloum4 input {
-                height: 36px;
-                width: 155px;
-            }
-            .last_coloum4 input {
-                padding-left: 16px;                padding-right: 37px;
-                font-size: 11px;
-            }
-            .last_coloum2 ul li {
-                padding-bottom: 4px;
-            }
-            .last_coloum1 h6, .last_coloum2 h6, .last_coloum3 h6, .last_coloum4 h6 {
-                padding-bottom: 20px;
-                font-size: 16px;
-            }
-            .social_login_last span {
-                padding-right: 14px;
-            }
-            .got_btn {
-                right: 48px;
-                top: 8%;
-                width: 30px;
-                height: 30px;
-                font-size: 12px;
-            }
-            .logo_terms_policy p, .terms p {
-                font-size: 11px;
-                line-height: 24px;
-            }
+    .booking_text p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .booking_box button {
+        font-size: 12px;
+    }
+    .booking_box input {
+        padding-left: 16px;  
+    }
+    .heading_text p { /* 2nd heading */
+        font-size: 13px;
+        padding-top: 9px;
+        padding-bottom: 4px;
+    }
+    .heading_text h2 {  /* 3nd heading */
+        font-size: 38px;
+        font-weight: 800;
+        letter-spacing: -1px;
+        line-height: 39px;
+        padding-bottom: 34px;
+    }
+    .heading_text p {
+        font-size: 11px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .heading_text h2 {
+        font-size: 25px;
+        line-height: 30px;
+        padding-bottom: 22px;
+    }
+    .anywheer_info {
+        grid-template-columns: 48% 48%;
+        grid-gap: 4%;
+    }
+    .section2 {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .sec1_text {
+        height: 120px;
+    }
+    .sec1_vdo {
+        height: 120px;
+    }
+    .Section1 {
+        padding-bottom: 15px;
+    }
+    .sec1_text h4 {
+        font-size: 10px;
+        font-weight: 800;
+    }
+    .call_icon {
+        height: 28px;
+        width: 28px;
+        font-size: 15px;
+    }
+    .number2 {
+        font-size: 11px;
+    }
+    .call_wri {
+        font-size: 11px;
+        line-height: 19px;
+    }
+    .call_icon {
+        margin-right: 6px;
+    }
+    .call_wri {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .section3 {
+        bottom: -2px;
+    }
+    .number_speak_heading p {
+        padding-top: 5px;
+    }
+    .number_speak_heading h2 {
+        padding-top: 5px;
+    }
+    .number_speak_heading {
+        padding-bottom: 19px;
+    }
+    .number_speak_heading p {
+        padding-top: 5px;
+        font-size: 11px;
+    }
+    .number_speak_heading h2 {
+        padding-top: 2px;
+        font-size: 25px;
+        font-weight: 800;
+        letter-spacing: 0px;
+    }
+    .square i {
+        font-size: 27px;
+    }
+    .square h2 {
+        font-size: 25px;
+        padding-top: 2px;
+    }
+    .square p {
+        font-size: 11px;
+        padding-top: 2px;
+    }
+    .square {
+        padding: 29px 0px;
+    }
+    .book_taxi_text p {
+        font-size: 11px;
+    }
+    .book_taxi_text h2 {
+        font-size: 25px;
+    }
+    .book_taxi_button button {
+        padding: 9px 16px;
+        font-size: 12px;
+    }
+    .chooose_taxi_heading p {
+        font-size: 11px;
+        padding-top: 5px;
+    }
+    .chooose_taxi_heading h2 {
+        font-size: 25px;
+        padding-top: 15px;
+        line-height: 0px;
+    }
+    .choose_taxi_buttons a {
+        margin-right: 12px;
+        padding: 9px 11px;
+        font-size: 11px;
+    }
+    .car_image img{
+        width: 100%;
+    }
+    .book_taxi_wrap {
+        width: 100%;
+        grid-template-columns: 48% 48%;
+        grid-gap: 4%;
+    }
+    .car_logo img{
+        width: 28% ;
+    }
+    .model_name {
+        padding: 10px 0px;
+    }
+    .model_name h4 {
+        font-size: 20px;
+    }
+    .first_row, .second_row, .third_row {
+        display: grid;
+        grid-template-columns: 55% 40%;
+        grid-gap: 5%;
+        padding-left: 59px;
+        margin-bottom: 8px;
+    }
+    .book_taxi_wrap_button button {
+        padding: 10px 41px;
+        font-size: 13px;
+    }
+    .car {
+        padding-bottom: 22px;
+    }
+    .why img {
+        padding-bottom: 10px;
+        padding-bottom: 14px;
+        width: 35%;
+    }
+    .why h4 {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .why p {
+        padding-bottom: 18px;
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .why h4, .why h5 {
+        font-size: 12px;
+    }
+    .check_taxi_farse_section2 {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 100%;
+        grid-gap: 2.5%;
+    }
+    .car_logo_text { 
+        padding-bottom: 22px;
+    }
+    .check_car_text p {
+        font-size: 15px;
+    }
+    .p_h_text p {
+        font-size: 13px;
+    }
+    .p_h6 {
+        padding-top: 20px;
+    }
+    .check_button button {
+        padding: 13px 36px;
+        font-size: 12px;
+    }
+    .check_section3 {
+        font-size: 11px;
+        line-height: 21px;
+        padding-top: 43px;
+    }
+    .what_they_say_image img {
+        width: 56px;
+        height: 56px;
+        margin: 6px;
+    }
+    .what_they_say_text p {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 9px 0px;
+    }
+    .new_updates_wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .new_updates_left_section1 img {
+        padding-bottom: 11px;
+    }
+    .new_updates_section2_text small {
+        font-size: 11px;
+    }
+    .new_updates_section3_text h5 {
+        font-size: 25px;
+        font-weight: 800;
+        line-height: 33px;
+        padding-bottom: 3px
+    }
+    .new_updates_section3_text p {
+        font-size: 11px;
+        line-height: 14px;
+        padding-bottom: 28px;
+    }
+    .new_updates_right_section1_left button {
+        font-size: 10px;
+        padding: 9px 16px;
+    }
+    .new_updates_right_section1_left h3 {
+        padding-top: 16px;
+        line-height: 24px;
+        font-size: 15px;
+    }
+    .new_updates_right_section1_left p {
+        padding-top: 12px;
+        font-size: 11px;
+    }
+    .new_updates_right_section1_left {
+        padding: 67px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    .new_updates_right_section1_left p {
+        padding-top: 7px;
+        font-size: 11px;
+    }
+    .call_now_wrap p {
+        font-size: 11px;
+    }
+    .call_now_wrap h2 {
+        font-size: 25px;
+        line-height: 29px;
+        padding-top: 7px;
+        padding-bottom: 25px;
+    }
+    .call_now_wrap button {
+        padding: 14px 28px;
+        font-size: 12px;
+    }
+    .last_coloum1 p, .last_coloum2 li, .last_coloum3 p, .last_coloum4 p {
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .last_coloum_wrap{
+        display: grid;
+        grid-template-columns: 48% 45%;
+        grid-gap: 10%;
+    }
+    .last_coloum4 input {
+        height: 36px;
+        width: 155px;
+    }
+    .last_coloum4 input {
+        padding-left: 16px;                padding-right: 37px;
+        font-size: 11px;
+    }
+    .last_coloum2 ul li {
+        padding-bottom: 4px;
+    }
+    .last_coloum1 h6, .last_coloum2 h6, .last_coloum3 h6, .last_coloum4 h6 {
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+    .social_login_last span {
+        padding-right: 14px;
+    }
+    .got_btn {
+        right: 48px;
+        top: 8%;
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .logo_terms_policy p, .terms p {
+        font-size: 11px;
+        line-height: 24px;
+    }
             
 
 }
