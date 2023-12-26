@@ -815,12 +815,12 @@ px      68    160    252    344    436    528    620    712    */
         padding: 8px 19px;
     }
     .booking_text h5 {
-        font-size: 11px;
+        font-size: 10px;
         padding-bottom: 1px;
         padding-top: 6px;
     }
     .booking_text h2 {
-        font-size: 30px;
+        font-size: 25px;
         padding-bottom: 9px;
     }
     .booking_text p {
@@ -840,7 +840,7 @@ px      68    160    252    344    436    528    620    712    */
         grid-gap: 12%;
     }
     .booking_box input {
-        font-size: 9px;
+        font-size: 8px;
     }
     input::-webkit-calendar-picker-indicator {
         background-color: #ffc000;
@@ -854,14 +854,14 @@ px      68    160    252    344    436    528    620    712    */
     }
 
     .booking_text p {
-        font-size: 11px;
-        line-height: 15px;
+        font-size: 10px;
+        line-height: 14px;
     }
     .booking_box button {
         font-size: 12px;
     }
     .booking_box input {
-        padding-left: 16px;  
+        padding-left: 12px;
     }
     .heading_text p { /* 2nd heading */
         font-size: 13px;
@@ -886,12 +886,12 @@ px      68    160    252    344    436    528    620    712    */
         padding-bottom: 22px;
     }
     .anywheer_info {
-        grid-template-columns: 48% 48%;
-        grid-gap: 4%;
+            display: flex;
+            flex-direction: column;
     }
     .section2 {
-        font-size: 11px;
-        line-height: 18px;
+        font-size: 10px;
+        line-height: 15px;
     }
     .sec1_text {
         height: 120px;
@@ -1176,5 +1176,4 @@ px      68    160    252    344    436    528    620    712    */
 @media only screen and (min-width: 350px) and (max-width: 449.98px) {
   
 }
-
 
