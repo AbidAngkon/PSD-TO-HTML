@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="assets/css/style1.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <!-- header with banner start -->
@@ -53,11 +55,23 @@
                         <i class="fa-solid fa-phone-volume"></i>
                     </div>
                 </div>
-            </div> 
-            <div class="mobile_header">
-                <img src="assets/image/logo.png" alt="">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-            </div>      
+            </div>
+            <div class="triggerAndMenu">
+                <div class="mobile_header">
+                    <img src="assets/image/logo.png" alt="">
+                    <i id="mobileMenuTrigger" class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+                <div class="mobile-menus">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li> 
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Booking a Ride</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>      
+            </div>
         </div>
        <div class="main_banner">
         <div class="inner_banner">
@@ -139,7 +153,10 @@
                     </div>
                     <div class="sec1_vdo">
                         <div class="sec_vdo_overlay">
-                            <i class="fa-solid fa-play"></i>
+                            <i id="playButtonPopup" class="fa-solid fa-play"></i>
+                        </div>
+                        <div class="vdoModal">
+                            <p>Vidoe play</p>
                         </div>
                     </div>
                 </div>
@@ -660,7 +677,6 @@
 
 
 <p id="demo"></p>
-
 <script src="assets/js/main.js"></script>
 </body>
 </html>

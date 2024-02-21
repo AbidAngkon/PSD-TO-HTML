@@ -1,14 +1,12 @@
-// var htmlContent = `<div style="background: green; height: 200px; width: 200px">
-//             <ul>
-//                 <li>Item 1</li>
-//                 <li>Item 2</li>
-//                 <li>Item 3</li>
-//                 <li>Item 4</li>
-//             </ul>
-//         </div>`;
+$(document).ready(function () {
+  $(document).on('click', '#mobileMenuTrigger', function(){
+    $('.mobile-menus').toggle();
+  });
+});
 
-//         // Get the element by ID
-//         var demoElement = document.getElementById('demo');
 
-//         // Set the innerHTML of the demo element to the HTML content
-//         demoElement.innerHTML = htmlContent;
+$(document).ready(function () {
+  $(document).on('click', '#playButtonPopup', function(){
+    $('.vdoModal').toggle();
+  });
+});

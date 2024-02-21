@@ -1260,7 +1260,7 @@ px      68    160    252    344    436    528    620    712    */
         align-items: center;
     }
     .inner_banner h1 {
-        font-size: 31px;
+        font-size: 27px;
         line-height: 36px;
     }
     .inner_banner p {
@@ -1268,15 +1268,15 @@ px      68    160    252    344    436    528    620    712    */
         font-size: 12px;
     }
     .left_arrow {
-        top: 40%;
-        left: 17px;
+        top: 48%;
+        left: 6px;
     }
     .right_arrow {
-        top: 40%;
-        right: 17px;
+        top: 48%;
+        right: 6px;
     }
     .left_arrow, .right_arrow {
-        font-size: 30px;
+        font-size: 26px;
     }
     .inner_banner a {
         font-size: 12px;
