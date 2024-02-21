@@ -1177,20 +1177,15 @@ input::-webkit-calendar-picker-indicator {
 
 .vdoModal{
   background: rgb(255, 192, 0);
-  display: block;
   border-radius: 15px;
   z-index: 1;
   position: absolute;
-  align-items: center;
-  justify-content: center;
   padding: 43px 103px;
-  display: none;
   text-align: center;
-  display: flex;
-  justify-content: center;
-  top: 82%;
-  right: 114%;
+  top: 100%;
+  right: 166%;
   font-weight: 600;
+  display: none;
 }
 
 
